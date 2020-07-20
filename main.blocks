@@ -342,7 +342,29 @@ f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f 
 . . . . . . . . 8 . 8 . . . . . 
 . . . . . . . 8 . . 8 . . . . . 
 . . . . . . 8 . . . 8 . . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="(||@eKo@D2R3vdJ^!1DV"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="spritesetpos" id="G?-@i*$/WsBP0DmynpwG"><value name="sprite"><block type="variables_get" id="$*XW:ud{*km)|;0MLMRi"><field name="VAR" id="-Ou,@.gp3E#P^qCZA~70">STALKER</field></block></value><value name="x"><shadow type="positionPicker" id="/MHI_k3sVj6S2}3Uah1D"><field name="index">40</field></shadow></value><value name="y"><shadow type="positionPicker" id="pVZtM=Mu{LU(0}_kBN#0"><field name="index">75</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="2/dmpSt=ORP[sc-OpJJS" x="720" y="382"><statement name="HANDLER"><block type="function_call" id=";J6rXQ^3E0~5V$KUvEa0"><mutation name="SugarRushStart" functionid="|_B@$h-Fsz82EU]~q?^Z"/></block></statement></block><block type="function_definition" id="w4cCGmnGV*DP{!VDqkfL" x="1320" y="442"><mutation name="Trump..." functionid="6f.]4M*w#QS3gHPj0yBk"/><field name="function_name">Trump...</field><statement name="STACK"><block type="gamesetbackgroundimage" id="*r!/X:lNVB4XUyL#lOzA"><value name="img"><shadow type="background_image_picker" id="^53D97w@bHUdUtr;9Fx?"><field name="img">img`
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="(||@eKo@D2R3vdJ^!1DV"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="spritesetpos" id="G?-@i*$/WsBP0DmynpwG"><value name="sprite"><block type="variables_get" id="$*XW:ud{*km)|;0MLMRi"><field name="VAR" id="-Ou,@.gp3E#P^qCZA~70">STALKER</field></block></value><value name="x"><shadow type="positionPicker" id="/MHI_k3sVj6S2}3Uah1D"><field name="index">40</field></shadow></value><value name="y"><shadow type="positionPicker" id="pVZtM=Mu{LU(0}_kBN#0"><field name="index">75</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="2/dmpSt=ORP[sc-OpJJS" x="720" y="382"><statement name="HANDLER"><block type="tilemap_editor" id="LoXA7}0AKH[-`d:E)CBa"><field name="tilemap">tiles.createTilemap(
+            hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010100000000000000000000000000000000000000000000000000000101010101010101000101010101010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`,
+            img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,
+            [myTiles.tile0,myTiles.tile1],
+            TileScale.Sixteen
+        )</field></block></statement></block><block type="function_definition" id="w4cCGmnGV*DP{!VDqkfL" x="1320" y="442"><mutation name="Trump..." functionid="6f.]4M*w#QS3gHPj0yBk"/><field name="function_name">Trump...</field><statement name="STACK"><block type="gamesetbackgroundimage" id="*r!/X:lNVB4XUyL#lOzA"><value name="img"><shadow type="background_image_picker" id="^53D97w@bHUdUtr;9Fx?"><field name="img">img`
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 5 5 5 5 5 5 5 5 5 5 5 5 5 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 5 5 5 5 5 5 5 5 5 5 5 5 5 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 5 5 5 5 5 5 5 5 5 5 5 5 5 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
@@ -514,26 +536,4 @@ f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f 
 . . . . . 4 4 4 4 4 . . . . . . 
 . . . . . 4 4 4 4 4 . . . . . . 
 . . . . . . . . . . . . . . . . 
-`]</field></block></value><value name="frameInterval"><shadow type="timePicker" id="?C}t]dyhlkLKoziw/wKL"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id=":?5]S{Fj#ZK5%zzPi{q+"><field name="on">false</field></shadow></value></block></statement></block><block type="keyonevent" id="^Fo]xfFFMjyd$+H{}$5h" x="970" y="710"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="tilemap_editor" id="LoXA7}0AKH[-`d:E)CBa"><field name="tilemap">tiles.createTilemap(
-            hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010100000000000000000000000000000000000000000000000000000101010101010101000101010101010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`,
-            img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`,
-            [myTiles.tile0,myTiles.tile1],
-            TileScale.Sixteen
-        )</field></block></statement></block></xml>
+`]</field></block></value><value name="frameInterval"><shadow type="timePicker" id="?C}t]dyhlkLKoziw/wKL"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id=":?5]S{Fj#ZK5%zzPi{q+"><field name="on">false</field></shadow></value></block></statement></block><block type="keyonevent" id="^Fo]xfFFMjyd$+H{}$5h" x="970" y="710"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="function_call" id=";J6rXQ^3E0~5V$KUvEa0"><mutation name="SugarRushStart" functionid="|_B@$h-Fsz82EU]~q?^Z"/></block></statement></block></xml>
